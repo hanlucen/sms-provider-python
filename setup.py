@@ -9,7 +9,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 README = open(os.path.join(here, 'Readme.md')).read()
 
 requires = [
-    'requests==2.15.1',
+    'requests>=2.20.0',
 ]
 
 includes = (
